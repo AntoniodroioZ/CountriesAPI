@@ -1,0 +1,61 @@
+:root{
+    --main-color: var(--white);
+    --main-color-light: #e3f5da;
+    --main-background-color: var(--white);
+    --letters: var(--dark-gray);
+
+
+    --dark-gray: #212121;
+    --medium-gray: #4d4c4c;
+    --light-gray: #E0E0E0;
+    --white: #FFFFFF;
+    --background: #F7F7F7;
+    --dark-blue: hsl(209, 23%, 22%);
+    --very-dark-blue: hsl(207, 26%, 17%);
+}
+
+
+
+.dark{
+    --main-color: var(--dark-blue);
+    --main-color-light: #e3f5da;
+    --letters: var(--light-gray);
+    --main-background-color: var(--very-dark-blue);
+    background-color: var(--main-background-color);
+}
+
+.header-dist{
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.nav-header{
+    background-color: var(--main-color);
+    color: var(--letters);
+    -webkit-box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.16); 
+    box-shadow: 0px 3px 3px 3px rgba(0,0,0,0.16);
+}
+
+.button-mode{
+   color: var(--letters);
+   
+}
+.button-mode:hover{
+    color: var(--letters);
+}
+.button-mode:focus{
+    box-shadow: 0 0 0 0.25rem rgb(13 110 253 / 0%);
+}
+
+.data-country{
+    margin: 0rem;
+    padding: 0rem;
+}
+.card-body{
+    padding: 2rem 1rem;
+}
+.card-desc{
+    background-color: var(--main-color);
+    color: var(--letters);
+}
