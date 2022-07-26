@@ -23,54 +23,50 @@
             </div>
         </div>
     </header>
+    <nav id="nav">
+      <br>
+      <div class="container header-dist">
+        <form>
+          <input type="text" name="" id="" placeholder="Search">
+        </form>
+        <select name="select">
+          <option value="value1" selected style="display: none;">Filter by:</option>
+          <option value="value1">All</option>
+          <option value="value2">Africa</option>
+          <option value="value3">America</option>
+          <option value="value2">Asia</option>
+          <option value="value3">Europe</option>
+          <option value="value2">Oceania</option>
+        </select>
+      </div>  
+    </nav>
     <br>
     <div class="container">
-        <div class="row">
-            <div class="col-3">
-                <div class="card card-desc" style="width: 18rem;">
-                    <img src="https://flagcdn.com/sv.svg" class="card-img-top" alt="...">
-                    <div class="card-body ">
-                      <h5>Name country</h5>
-                      <p class="data-country">Population: 100,100,100</p>
-                      <p class="data-country">Region: lorem</p>
-                      <p class="data-country">Capital: lorem</p>
-                    </div>
-                  </div>
+        <div class="row" id="innerCountry"></div>
+        <div class="details hide-section" id="details">
+            <button class="btn btn-back" onclick="showHTML()"><i class="fa fa-arrow-left"></i> Back</button>
+            <br>
+            <br>
+            <div class="center-details">
+              <div>
+                <img class="img-details" src="" alt="" id="flag-detail">
+              </div>
+              <div class="center-details">
+                <div style="margin: 1rem;">
+                  <h5 id="country-name">Greenland</h5>
+                  <p id="native-name">Native Name: Greenland</p>
+                  <p id="population">Population: 1312312123</p>
+                  <p id="region">Region: Europe</p>
+                  <p id="subregion">Sub region: Western Europe</p>
+                  <p id="capital">Capital: Brussels</p>
+                </div>
+                <div  style="margin: 1rem;">
+                  <p id="domain">Top level domain: be</p>
+                  <p id="currencies">Currences: Euro</p>
+                  <p id="languages">Languages: Dutch, French, German</p>
+                </div>
+              </div>
             </div>
-            <div class="col-3">
-                <div class="card card-desc" style="width: 18rem;">
-                    <img src="https://flagcdn.com/sv.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5>Name country</h5>
-                      <p class="data-country">Population: 100,100,100</p>
-                      <p class="data-country">Region: lorem</p>
-                      <p class="data-country">Capital: lorem</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-3">
-                <div class="card card-desc" style="width: 18rem;">
-                    <img src="https://flagcdn.com/sv.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5>Name country</h5>
-                      <p class="data-country">Population: 100,100,100</p>
-                      <p class="data-country">Region: lorem</p>
-                      <p class="data-country">Capital: lorem</p>
-                    </div>
-                  </div>
-            </div>
-            <div class="col-3">
-                <div class="card card-desc" style="width: 18rem;">
-                    <img src="https://flagcdn.com/sv.svg" class="card-img-top" alt="...">
-                    <div class="card-body">
-                      <h5>Name country</h5>
-                      <p class="data-country">Population: 100,100,100</p>
-                      <p class="data-country">Region: lorem</p>
-                      <p class="data-country">Capital: lorem</p>
-                    </div>
-                  </div>
-            </div>
-            
         </div>
     </div>
 
